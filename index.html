@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetHome - Temukan Teman Baru untuk Keluarga Anda</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fas fa-paw"></i>
+                    PetHome
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#pets">Temukan Hewan</a></li>
+                    <li><a href="#process">Proses Adopsi</a></li>
+                    <li><a href="#stories">Kisah Sukses</a></li>
+                    <li><a href="#visit">Kunjungi Kami</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+                <a href="#pets" class="cta-button">Mulai Adopsi</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Temukan Sahabat Baru untuk Keluarga Anda</h1>
+            <p>Setiap hewan peliharaan pantas mendapatkan rumah yang penuh cinta. Bantu kami menemukan keluarga yang tepat untuk mereka.</p>
+            <a href="#pets" class="cta-button">Lihat Hewan Tersedia</a>
+            
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number">1,257+</div>
+                    <div class="stat-label">Hewan Diselamatkan</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">894+</div>
+                    <div class="stat-label">Adopsi Berhasil</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">63+</div>
+                    <div class="stat-label">Kota Terjangkau</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pets Section -->
+    <section class="pets-section" id="pets">
+        <div class="container">
+            <h2 class="section-title">Temukan Sahabat Baru Anda</h2>
+            
+            <!-- Filter dihapus -->
+
+            <div class="pets-grid">
+                <!-- Pet 1 -->
+                <div class="pet-card">
+                    <img src="anjing1.jpg" alt="Buddy" class="pet-image">
+                    <div class="pet-info">
+                        <h3 class="pet-name">Buddy</h3>
+                        <div class="pet-meta">
+                            <span class="pet-breed">Golden Retriever</span>
+                            <span>2 Tahun</span>
+                        </div>
+                        <p class="pet-description">Buddy adalah anjing yang sangat ramah dan aktif. Dia suka bermain bola dan berjalan-jalan di taman.</p>
+                        <button class="adopt-btn">Adopsi Sekarang</button>
+                    </div>
+                </div>
+
+                <!-- Pet 2 -->
+                <div class="pet-card">
+                    <img src="kucing1.jpg" alt="Luna" class="pet-image">
+                    <div class="pet-info">
+                        <h3 class="pet-name">Luna</h3>
+                        <div class="pet-meta">
+                            <span class="pet-breed">Persian</span>
+                            <span>1.5 Tahun</span>
+                        </div>
+                        <p class="pet-description">Luna adalah kucing yang kalem dan manja. Dia suka tidur di pangkuan dan mendengkur dengan lembut.</p>
+                        <button class="adopt-btn">Adopsi Sekarang</button>
+                    </div>
+                </div>
+
+                <!-- Pet 3 -->
+                <div class="pet-card">
+                    <img src="https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Snowball" class="pet-image">
+                    <div class="pet-info">
+                        <h3 class="pet-name">Snowball</h3>
+                        <div class="pet-meta">
+                            <span class="pet-breed">Holland Lop</span>
+                            <span>8 Bulan</span>
+                        </div>
+                        <p class="pet-description">Snowball adalah kelinci yang lucu dan penuh energi. Dia suka melompat-lompat dan makan wortel.</p>
+                        <button class="adopt-btn">Adopsi Sekarang</button>
+                    </div>
+                </div>
+
+                <!-- Pet 4 - Burung -->
+                <div class="pet-card">
+                    <img src="parkit.png" alt="Rio" class="pet-image">
+                    <div class="pet-info">
+                        <h3 class="pet-name">Rio</h3>
+                        <div class="pet-meta">
+                            <span class="pet-breed">Parkit</span>
+                            <span>1 Tahun</span>
+                        </div>
+                        <p class="pet-description">Rio adalah burung parkit yang cerdas dan bersuara merdu. Dia suka bernyanyi dan bermain dengan mainan.</p>
+                        <button class="adopt-btn">Adopsi Sekarang</button>
+                    </div>
+                </div>
+
+                <!-- Pet 5 - Burung -->
+                <div class="pet-card">
+                    <img src="sunny.jpg" alt="Sunny" class="pet-image">
+                    <div class="pet-info">
+                        <h3 class="pet-name">Sunny</h3>
+                        <div class="pet-meta">
+                            <span class="pet-breed">Lovebird</span>
+                            <span>6 Bulan</span>
+                        </div>
+                        <p class="pet-description">Sunny adalah lovebird yang aktif dan penuh warna. Dia sangat sosial dan suka berinteraksi dengan manusia.</p>
+                        <button class="adopt-btn">Adopsi Sekarang</button>
+                    </div>
+                </div>
+
+                <!-- Pet 6 - Anjing -->
+                <div class="pet-card">
+                    <img src="2.jpg" alt="Max & Joe" class="pet-image">
+                    <div class="pet-info">
+                        <h3 class="pet-name">Max & Joe</h3>
+                        <div class="pet-meta">
+                            <span class="pet-breed">Beagle</span>
+                            <span>3 Tahun</span>
+                        </div>
+                        <p class="pet-description">Max adalah anjing beagle yang penyayang dan setia. Dia sangat baik dengan anak-anak dan hewan lainnya.</p>
+                        <button class="adopt-btn">Adopsi Sekarang</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Adoption Process -->
+    <section class="process-section" id="process">
+        <div class="container">
+            <h2 class="section-title" style="color: var(--dark);">Proses Adopsi Mudah</h2>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="step-number">1</div>
+                    <h3>Temukan Hewan</h3>
+                    <p>Jelajahi koleksi hewan kami dan temukan yang sesuai dengan gaya hidup Anda</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="step-number">2</div>
+                    <h3>Isi Formulir</h3>
+                    <p>Lengkapi formulir adopsi online dengan informasi tentang rumah dan keluarga Anda</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="step-number">3</div>
+                    <h3>Pertemuan</h3>
+                    <p>Jadwalkan pertemuan dengan hewan pilihan Anda dan tim kami</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="step-number">4</div>
+                    <h3>Bawa Pulang</h3>
+                    <p>Bawa pulang sahabat baru Anda dan mulai petualangan bersama</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories -->
+    <section class="stories-section" id="stories">
+        <div class="container">
+            <h2 class="section-title">Kisah Adopsi Sukses</h2>
+            <div class="stories-grid">
+                <div class="story-card">
+                    <img src="joko.jpeg" alt="Joko" class="story-image">
+                    <p class="story-text">"Mengadopsi Buddy adalah keputusan terbaik yang pernah saya buat. Dia membawa begitu banyak kebahagiaan ke dalam hidup saya!"</p>
+                    <p class="story-author">- Joko, Jakarta</p>
+                </div>
+                <div class="story-card">
+                    <img src="plenger.jpeg" alt="Budi" class="story-image">
+                    <p class="story-text">"Proses adopsinya sangat mudah dan tim PetHome sangat membantu. Luna sekarang menjadi anggota keluarga yang disayangi."</p>
+                    <p class="story-author">- Budi, Bandung</p>
+                </div>
+                <div class="story-card">
+                    <img src="riri.jpeg" alt="Maya" class="story-image">
+                    <p class="story-text">"Snowball adalah tambahan yang sempurna untuk keluarga kami. Anak-anak sangat menyayanginya!"</p>
+                    <p class="story-author">- Maya, Surabaya</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visit Us Section -->
+    <section class="visit-section" id="visit">
+        <div class="container">
+            <div class="visit-content">
+                <!-- Animated Icons -->
+                <div class="floating-icons">
+                    <div class="floating-icon">
+                        <i class="fas fa-dog"></i>
+                    </div>
+                    <div class="floating-icon">
+                        <i class="fas fa-cat"></i>
+                    </div>
+                    <div class="floating-icon">
+                        <i class="fas fa-rabbit"></i>
+                    </div>
+                    <div class="floating-icon">
+                        <i class="fas fa-dove"></i>
+                    </div>
+                </div>
+
+                <div class="visit-header">
+                    <div class="visit-icon">
+                        <i class="fas fa-home-heart"></i>
+                    </div>
+                    <h2 class="visit-title">Masih Belum Menemukan yang Cocok?</h2>
+                    <p class="visit-subtitle">Kami punya lebih banyak hewan yang menunggu untuk bertemu dengan Anda!</p>
+                </div>
+                
+                <!-- Feature Cards dengan Animasi -->
+                <div class="visit-features">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-paw"></i>
+                        </div>
+                        <h4>50+ Hewan Lainnya</h4>
+                        <p>Masih banyak teman berbulu yang belum terlihat online</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4>Lihat Langsung</h4>
+                        <p>Saksikan kepribadian asli mereka secara langsung</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>Konsultasi Gratis</h4>
+                        <p>Dapatkan saran dari ahli hewan kami</p>
+                    </div>
+                </div>
+                
+                <!-- Highlight Message dengan Efek Khusus -->
+                <div class="visit-highlight">
+                    <div class="highlight-content">
+                        <div class="sparkle">
+                            <i class="fas fa-sparkles"></i>
+                        </div>
+                        <p class="highlight-text">✨ Silahkan cek hewan lainnya datang ke tempat kami! ✨</p>
+                        <div class="sparkle">
+                            <i class="fas fa-sparkles"></i>
+                        </div>
+                    </div>
+                    <div class="highlight-subtext">
+                        <p>Bertemu langsung = Cinta pada pandangan pertama!</p>
+                    </div>
+                </div>
+                
+                <!-- CTA Button dengan Efek -->
+                <div class="visit-cta">
+                    <a href="#contact" class="visit-button">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Kunjungi Shelter Kami
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <p class="cta-note">Buka setiap hari • Gratis masuk • Parkir luas</p>
+                </div>
+
+                <!-- Quick Info -->
+                <div class="quick-info">
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Buka 7 Hari Seminggu</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-car"></i>
+                        <span>Parkir Gratis</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-child"></i>
+                        <span>Ramah Keluarga</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>PetHome</h3>
+                    <p>Membantu hewan menemukan rumah yang penuh cinta sejak 2020.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontak Kami</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Merdeka No. 123, Jakarta</p>
+                    <p><i class="fas fa-phone"></i> (021) 1234-5678</p>
+                    <p><i class="fas fa-envelope"></i> hello@pethome.org</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Jam Operasional</h3>
+                    <p>Senin - Jumat: 9:00 - 18:00</p>
+                    <p>Sabtu: 9:00 - 16:00</p>
+                    <p>Minggu: 10:00 - 14:00</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Link Cepat</h3>
+                    <p><a href="#pets">Temukan Hewan</a></p>
+                    <p><a href="#process">Proses Adopsi</a></p>
+                    <p><a href="#stories">Kisah Sukses</a></p>
+                    <p><a href="#visit">Kunjungi Kami</a></p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Raihan,Ghany,Dava,Yahya | Dibuat dengan <i class="fas fa-heart"></i> untuk hewan</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
